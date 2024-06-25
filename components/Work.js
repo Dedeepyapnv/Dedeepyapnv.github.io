@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link'
 
-export const Skills = ({ title, cards }) => {
+export const Experience = ({ title, cards }) => {
 	return (
 		<div id="skills" className="bg-secondary py-5 px-5">
 			<div className="container">

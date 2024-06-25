@@ -11,7 +11,10 @@ export const navigation = {
       title: "About",
       link: "#about",
     },
-
+    {
+      title: "Experience",
+      link: "#experience",
+    },
     {
       title: "Projects",
       link: "#projects",
@@ -19,10 +22,6 @@ export const navigation = {
     {
       title: "Contact",
       link: "#contact",
-    },
-    {
-      title: "Links",
-      link: "/links",
     }
   ],
 }
@@ -55,7 +54,21 @@ export const about = {
   ],
 }
 
-
+export const experience = {
+  title: "Work Experience",
+  cards: [
+    {
+      title: "IBM",
+      description: "Led cross-functional teams in optimizing cloud resource allocation, integrating GraphQL with PostgreSQL for enhanced data querying, and enforcing a robust REST API system at IBM, resulting in improved resource utilization efficiency by 30%, data accessibility by 25%, and reduced code complexity by 30%.",
+      icons: null,
+    },
+    {
+      title: "Virtusa",
+      description: "I create responsive static websites using Reactjs.",
+      icons: null,
+    }
+  ],
+}
 
 export const projects = {
   title: "Projects",
@@ -102,7 +115,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char  
   title: "Dedeepya Padmanabhuni ",
-  //description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+
   image: profile.src,
 }
 
