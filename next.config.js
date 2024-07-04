@@ -6,7 +6,7 @@ const isProd = process.env.NODE_ENV === 'production'
  * https://stackoverflow.com/questions/60452054/nextjs-deploy-to-a-specific-url-path
  */
 function getBasePath() {
-  var basePath = undefined
+  let basePath = ""; // Default to "/" if BASE_PATH is not defined or doesn't start with "/"
 
   if (isProd && process.env.BASE_PATH) {
     if (process.env.BASE_PATH.startsWith("/")) {
@@ -15,9 +15,7 @@ function getBasePath() {
       basePath = "/" + process.env.BASE_PATH;
     }
   }
-  return basePath
 }
-
 const basePath = getBasePath()
 console.warn(
   // "Are you publishing to <username>.github.io ? then [basePath] should be empty.\n" +
