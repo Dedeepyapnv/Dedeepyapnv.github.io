@@ -87,7 +87,19 @@ export const projects = {
 
         {
           icon: faGithub,
-          link: "https://github.com/Dedeepyapnv",
+          link: "https://github.com/Dedeepyapnv/Slash",
+        },
+      ]
+    },
+
+    {
+      title: "PayGuard",
+      description: "A secure payment gateway using Java and Spring Boot, incorporating robust authentication protocols to ensure transaction integrity and user trust",
+      icons: [
+
+        {
+          icon: faGithub,
+          link: "https://github.com/Dedeepyapnv/PayGuard",
         },
       ]
     },
